@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* nav bar */
+.logo{
+    font-size: 2rem;
+    border: 1px solid #707070;
+    padding: 4px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo:hover{
+  color: white;
+  background-color: black;
+}
+/* nav bar end */
+
+/* introduction section */
+@media screen and (max-width: 800px) {
+  .intro-heading{
+    font-size: 30px !important;
+  }
+  .intro-subheading{
+    width: 100% !important;
+  }
+}
+#introduction{
+    padding: 80px 0px ;
+}
+#projects{
+  padding-bottom: 80px;
+}
+.intro-heading{
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+}
+
+.intro-subheading{
+    font-size: 15px;
+    font-weight: 400;
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    opacity: 0.65;
+}
+
+  .tab{
+    cursor: pointer;
+    /* padding:10px 20px; */
+    margin:10px 22px;
+    display:inline-block;
+    color:black;
+    font-weight: 400;
+  }
+  #one-tab{
+      margin-left: 0px !important;
+  }
+  .radio{
+    display:none;
+  }
+  #one:checked ~ .panels #one-panel,
+  #two:checked ~ .panels #two-panel,
+  #three:checked ~ .panels #three-panel{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #one:checked ~ .tabs #one-tab{
+      border-bottom: 5px solid #0FA2D2;
+      font-weight: 700;
+  }
+  #two:checked ~ .tabs #two-tab{
+    border-bottom: 5px solid #852608;
+    font-weight: 700;
+  }
+  #three:checked ~ .tabs #three-tab{
+    border-bottom: 5px solid #63AF4B;
+    font-weight: 700;
+  }
+  .panels{
+    width:100%;
+    overflow:hidden;
+    padding: 30px 0px;  
+  }
+  .panel{
+    display:none;
+    animation: fadein .8s;
+  }
+  @keyframes fadein {
+      from {
+          opacity:0;
+      }
+      to {
+          opacity:1;
+      }
+  }
+  .panel-title{
+    font-size:1.5em;
+    font-weight:bold
+  }
+  .card-heading{
+    font-weight: 700;
+  }
+  .card-desc{
+    font-weight: 400;
+  }
+/* introducion section ends */
+
+/* about section */
+@media screen and (max-width: 800px) {
+  .about-content{
+    width: 85% !important;
+  }
+}
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 80px 0px ;
+        /* margin-top: 45px; */
+    }
+
+    .about-img{
+        height: 250px;
+        margin: 25px 0px;
+    }
+    .about-subtxt{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .about-content{
+        margin-top: 1rem;
+        width: 60%;
+        text-align: center;
+    }
+    .about-content p{
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+/* about section ens */
+/* footer */
+@media screen and (max-width: 800px) {
+  .footer{
+    width: 100% !important;
+  }
+}
+.footer{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.footer> h1{
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+
+.icon{
+  height: 26px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.social-icons{
+  margin-top: 44px ;
+  margin-bottom: 68px;
+}
+.copyright{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+/* footer ends */
+
+/* project */
+.imageDiv{
+  display: flex;
+  flex-direction: column;
+}
+.caseStudy{
+  width: 75vw;
+  margin: 60px auto;
+  text-align: center;
+}
+.head{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+}
+.back{
+  display: inline;
+  width: 60px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* project ends */
+.modal-subhead-grey{
+  color: #A8A8A8;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.modal-subhead{
+  font-weight: 600;
+  line-height: 2;
+}
+
+.text {
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text small{
+  font-size: 20px;
+  font-weight: 400;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0,0,0,0.7);
+}

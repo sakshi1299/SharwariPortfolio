@@ -1,0 +1,23 @@
+[
+                    {
+                        "id" : "1",
+                        "title" : "OLA ForWheels",
+                        "description" : "UI/UX Case Study- Mobile App",
+                        "image" : "./assets/OLA_image.png",
+                        "caseStudy" : "./assets/Ola_CaseStudy.png"
+                    },
+                    {
+                        "id" : "2",
+                        "title" : "Deck Spaces",
+                        "description" : "UI Case Study- Web Design",
+                        "image" : "./assets/deckSpaces_image.png",
+                        "caseStudy" : "./assets/DeckSpaces_casesStudy.png"
+                    },
+                    {
+                        "id" : "3",
+                        "title" : "Smart Fridge",
+                        "description" : "UI/UX Case Study",
+                        "image" : "./assets/Artboard – 1.png",
+                        "caseStudy" : "./assets/fridge casestudy.png"
+                    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id" : "1",
+        "title" : "How to turn your random thought into a product idea" ,
+        "link" : "https://link.medium.com/8mR0TXd1mlb" ,
+        "image" : "./assets/Thought.png"
+    },
+    {
+        "id" : "2",
+        "title" : "UX laws and principles based on cognitive bias" ,
+        "link" : "https://link.medium.com/yc7DdSf1mlb" ,
+        "image" : "./assets/UX law.png"
+    }
+]

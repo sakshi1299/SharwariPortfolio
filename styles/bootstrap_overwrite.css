@@ -1,0 +1,85 @@
+
+.navbar{
+    padding-top: 2.5rem !important;
+}
+.navbar-nav{
+    margin: auto !important;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image:url(../assets/menu.png) !important
+}
+.navbar-light .navbar-toggler-icon :focus , ::after{
+    background-image:url(../assets/close.png) !important
+}
+.navbar-toggler{
+    border: none !important;
+}
+.nav-link{
+    padding: 1.3rem 1.3rem !important;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A8A8A8 !important;
+}
+
+.nav-link.active{
+    font-weight: 700 !important;
+    color: black !important;
+}
+.container-fluid{
+    padding-right: var(--bs-gutter-x,5.90rem) !important;
+    padding-left: var(--bs-gutter-x,5.90rem) !important;
+
+}
+.card-body{
+    background-color: #F6F6F6 !important;
+}
+.card{
+    margin: 28px 0px;
+    width: 28rem;
+    cursor: pointer;
+}
+.card:hover .overlay{
+    /* transform: scale(105%) ;  */
+    opacity: 0.8;
+    /* transition: transform 0.2s */
+}
+.btn:hover{
+    border: 2px solid black !important;
+    color: black !important;
+    background-color: white !important;
+}
+.modal-header .btn-close{
+    margin: 0px !important;
+}
+.modal-title{
+    margin: auto !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+.modal-header{
+    border-bottom: none !important;
+    padding-top: 2rem !important;
+
+}
+.modal{
+    left: 10% !important;
+    width: 80% !important;
+}
+
+.modal-body{
+    text-align: center;
+    padding-bottom: 50px !important;
+}
+@media screen and (max-width: 800px) {
+    .container-fluid{
+        padding-right: var(--bs-gutter-x,1.90rem) !important;
+        padding-left: var(--bs-gutter-x,1.90rem) !important;
+    
+    }
+    .card{
+        width: 20rem;
+    }
+    .btn-dark{
+        display: none !important;
+    }
+}
