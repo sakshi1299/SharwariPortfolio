@@ -34,10 +34,10 @@ function getOthers(blogs) {
         heading.classList.add("card-heading");
         heading.innerHTML = blogs[i].title;
         card_body.appendChild(heading);
-        var desc = document.createElement("p");
-        desc.classList.add("card-desc")
-        desc.innerHTML = blogs[i].description;
-        card_body.appendChild(desc);
+        // var desc = document.createElement("p");
+        // desc.classList.add("card-desc")
+        // desc.innerHTML = blogs[i].description;
+        // card_body.appendChild(desc);
         mainContainer.appendChild(div);
         caseStudy = blogs[i].caseStudy;
         div.setAttribute('onClick' , 'navigate( " '+caseStudy+' " ,  " '+blogs[i].title+' ")');
