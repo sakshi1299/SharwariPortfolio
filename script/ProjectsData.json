@@ -9,28 +9,28 @@
                     {
                         "id" : "2",
                         "title" : "Clay and co",
-                        "description" : "UI/UX Case Study",
+                        "description" : "Store visual identity ",
                         "image" : "./assets/Clay and co/20211208_095323.jpg",
                         "caseStudy" : "./assets/Clay and co/clay an co.png"
                     },
                     {
                         "id" : "3",
                         "title" : "OLA ForWheels",
-                        "description" : "UI/UX Case Study- Mobile App",
+                        "description" : "UI/UX Case Study",
                         "image" : "./assets/OLA_image.png",
                         "caseStudy" : "./assets/Ola_CaseStudy.png"
                     },
                     {
                         "id" : "4",
                         "title" : "Travel leaders",
-                        "description" : "UI/UX Case Study",
+                        "description" : "UI/UX website redesign",
                         "image" : "./assets/Travel leaders/20211208_102219.jpg",
                         "caseStudy" : "./assets/Travel leaders/travel leaders.png"
                     },
                     {
                         "id" : "5",
                         "title" : "Deck Spaces",
-                        "description" : "UI Case Study- Web Design",
+                        "description" : "UI design Case Study",
                         "image" : "./assets/deckSpaces_image.png",
                         "caseStudy" : "./assets/DeckSpaces_casesStudy.png"
                     },
