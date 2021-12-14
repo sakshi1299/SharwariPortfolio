@@ -24,7 +24,7 @@ function getOthers(blogs) {
         overlayDiv.classList.add("overlay");
         var overlayText = document.createElement("div")
         overlayText.classList.add("text");
-        overlayText.innerHTML = blogs[i].title  + "<br/> <small>" + blogs[i].description + "</small>" ;
+        overlayText.innerHTML = blogs[i].title  ;
         overlayDiv.appendChild(overlayText);
         div.appendChild(overlayDiv);
         var card_body = document.createElement("div");
