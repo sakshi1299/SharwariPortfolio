@@ -35,7 +35,7 @@
 }
 .card{
     margin: 28px 0px;
-    width: 28rem;
+    width: 30rem;
     cursor: pointer;
 }
 .card:hover .overlay{

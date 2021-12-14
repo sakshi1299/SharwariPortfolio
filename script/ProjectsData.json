@@ -3,42 +3,42 @@
                         "id" : "1",
                         "title" : "IKAIKA",
                         "description" : "UI/UX Case Study",
-                        "image" : "./assets/IKAIKA/20211208_095244.jpg",
+                        "image" : "./assets/IKAIKA/A.png",
                         "caseStudy" : "./assets/IKAIKA/ikaika full.png"
                     },
                     {
                         "id" : "2",
                         "title" : "Clay and co",
                         "description" : "Store visual identity ",
-                        "image" : "./assets/Clay and co/20211208_095323.jpg",
+                        "image" : "./assets/Clay and co/B.png",
                         "caseStudy" : "./assets/Clay and co/clay an co.png"
                     },
                     {
                         "id" : "3",
                         "title" : "OLA ForWheels",
                         "description" : "UI/UX Case Study",
-                        "image" : "./assets/OLA_image.png",
+                        "image" : "./assets/C.png",
                         "caseStudy" : "./assets/Ola_CaseStudy.png"
                     },
                     {
                         "id" : "4",
                         "title" : "Travel leaders",
                         "description" : "UI/UX website redesign",
-                        "image" : "./assets/Travel leaders/20211208_102219.jpg",
+                        "image" : "./assets/Travel leaders/D.png",
                         "caseStudy" : "./assets/Travel leaders/travel leaders.png"
                     },
                     {
                         "id" : "5",
                         "title" : "Deck Spaces",
                         "description" : "UI design Case Study",
-                        "image" : "./assets/deckSpaces_image.png",
+                        "image" : "./assets/C.png",
                         "caseStudy" : "./assets/DeckSpaces_casesStudy.png"
                     },
                     {
                         "id" : "6",
                         "title" : "Smart Fridge",
                         "description" : "UI/UX Case Study",
-                        "image" : "./assets/Artboard – 1.png",
+                        "image" : "./assets/F.png",
                         "caseStudy" : "./assets/fridge casestudy.png"
                         
                     }
