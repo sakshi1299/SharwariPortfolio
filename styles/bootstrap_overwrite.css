@@ -77,7 +77,7 @@
     
     }
     .card{
-        width: 20rem;
+        width: 100% !important;
     }
     .btn-dark{
         display: none !important;
