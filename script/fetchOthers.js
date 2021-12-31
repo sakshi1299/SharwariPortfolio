@@ -14,8 +14,14 @@ function getOthers(blogs) {
     var mainContainer = document.getElementById("three-panel");
 
     for (var i = 0; i < blogs.length; i++) {
+        var link = document.createElement("a");
+        link.setAttribute('href' , blogs[i].link)
+        link.setAttribute('target' , "_blank")
+        link.style.textDecoration="none";
+        link.style.color = "black" ;
         var div = document.createElement("div");
         div.classList.add('card');
+        link.appendChild(div);
         var img = document.createElement("img");
         img.classList.add("card-img-top");
         img.src =blogs[i].image;
@@ -38,9 +44,9 @@ function getOthers(blogs) {
         // desc.classList.add("card-desc")
         // desc.innerHTML = blogs[i].description;
         // card_body.appendChild(desc);
-        mainContainer.appendChild(div);
-        caseStudy = blogs[i].caseStudy;
-        div.setAttribute('onClick' , 'navigate( " '+caseStudy+' " ,  " '+blogs[i].title+' ")');
+        mainContainer.appendChild(link);
+        // caseStudy = blogs[i].caseStudy;
+        // div.setAttribute('onClick' , 'navigate( " '+caseStudy+' " ,  " '+blogs[i].title+' ")');
     }
 }
 function navigate(i , j)

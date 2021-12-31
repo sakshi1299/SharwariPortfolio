@@ -3,19 +3,19 @@
                         "id" : "1",
                         "title" : "Calender Design",                        
                         "image" : "./assets/Calender Designing/Calendar image.png",
-                        "caseStudy" : "./assets/Calender Designing/Calendar case study.png"
+                        "link" : "https://www.behance.net/gallery/129223707/CALENDAR-DESIGNING"
                     },
                     {
                         "id" : "2",
                         "title" : "Tin Designing",
                         "image" : "./assets/Tin Designing/PREVIEW.png",
-                        "caseStudy" : "./assets/Tin Designing/TIN CASE STUDY.png"
+                        "link" : "https://www.behance.net/gallery/132957633/Tin-packaging-and-label-designing"
                     },
                     {
                         "id" : "3",
                         "title" : "T-shirt Print",
                         "image" : "./assets/T-shirt Print/t shirt preview.png",
-                        "caseStudy" : "./assets/T-shirt Print/CASE STUDY TSHIRT.png"
+                        "link" : "./assets/T-shirt Print/CASE STUDY TSHIRT.png"
                     }
                   
 ]

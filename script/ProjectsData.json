@@ -4,42 +4,42 @@
                         "title" : "IKAIKA",
                         "description" : "UI/UX Case Study",
                         "image" : "./assets/IKAIKA/A.png",
-                        "caseStudy" : "./assets/IKAIKA/ikaika full.png"
+                        "link" : "https://www.behance.net/gallery/132410679/Mobile-application-UIUX-case-study"
                     },
                     {
                         "id" : "2",
                         "title" : "Clay and co",
                         "description" : "Store visual identity ",
                         "image" : "./assets/Clay and co/B.png",
-                        "caseStudy" : "./assets/Clay and co/clay an co.png"
+                        "link" : "https://www.behance.net/gallery/131881207/Theme-based-Ceramic-store-visual-identity"
                     },
                     {
                         "id" : "3",
                         "title" : "OLA ForWheels",
                         "description" : "UI/UX Case Study",
                         "image" : "./assets/C.png",
-                        "caseStudy" : "./assets/Ola_CaseStudy.png"
+                        "link" : "https://www.behance.net/gallery/130192043/OLA-forWheels-UIUX-case-study-with-proposed-concept"
                     },
                     {
                         "id" : "4",
                         "title" : "Travel leaders",
                         "description" : "UI/UX website redesign",
                         "image" : "./assets/Travel leaders/D.png",
-                        "caseStudy" : "./assets/Travel leaders/travel leaders.png"
+                        "link" : "https://www.behance.net/gallery/132550843/Website-Redesign-Travel-leaders"
                     },
                     {
                         "id" : "5",
                         "title" : "Deck Spaces",
                         "description" : "UI design Case Study",
                         "image" : "./assets/E.png",
-                        "caseStudy" : "./assets/DeckSpaces_casesStudy.png"
+                        "link" : "https://www.behance.net/gallery/129800745/UI-Designing-for-Co-working-spaces"
                     },
                     {
                         "id" : "6",
                         "title" : "Smart Fridge",
                         "description" : "UI/UX Case Study",
                         "image" : "./assets/F.png",
-                        "caseStudy" : "./assets/fridge casestudy.png"
+                        "link" : "https://www.behance.net/gallery/132198035/Smart-Refrigerator-UIUX-Design"
                         
                     }
                   
