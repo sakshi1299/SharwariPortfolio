@@ -10,12 +10,8 @@
                         "title" : "Tin Designing",
                         "image" : "./assets/Tin Designing/PREVIEW.png",
                         "link" : "https://www.behance.net/gallery/132957633/Tin-packaging-and-label-designing"
-                    },
-                    {
-                        "id" : "3",
-                        "title" : "T-shirt Print",
-                        "image" : "./assets/T-shirt Print/t shirt preview.png",
-                        "link" : "./assets/T-shirt Print/CASE STUDY TSHIRT.png"
                     }
+    
                   
 ]
+
